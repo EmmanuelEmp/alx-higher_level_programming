@@ -62,7 +62,8 @@ class Square:
         Returns: The size squared
         """
         return self.__size * self.__size
-def pos_print(self):
+
+    def pos_print(self):
         """returns the position in spaces"""
         pos = ""
         if self.size == 0:
